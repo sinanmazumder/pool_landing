@@ -101,6 +101,13 @@ ul{
     background: 
     #fff;
 }
+.check {
+    text-align: left;
+    color: 
+    #fff;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
 .banner .content textarea {
     width: 100%;
     margin-top: 5px;
@@ -119,8 +126,15 @@ ul{
     #fff;
     text-transform: uppercase;
     height: 66px;
-    margin-top: 30px;
+    margin-top: 8px;
     font-weight: 600;
+}
+.check input {
+
+    width: 20px !important;
+    height: auto !important;
+    cursor: pointer;
+
 }
 
 
