@@ -50,7 +50,7 @@ ul{
     position: relative;
     background: url('../images/1.jpg');
     background-size: cover;
-    padding: 10px 0;
+    padding: 60px 0;
 }
 .banner:before{
     content: '';
@@ -229,8 +229,16 @@ ul{
     background:
     #fff;
 }
-.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-icon, .ui-widget-content .ui-icon{
-    display: none;
+#accordion .ui-accordion-header-icon {
+
+    overflow: visible;
+    text-align: right;
+    float: right;
+    background: 
+
+    transparent !important;
+    margin: 5px 0;
+
 }
 .ui-state-active {
     border: none;
@@ -413,6 +421,23 @@ background:
     background: 
     #fff;
     width: 30px;
+}
+
+
+
+
+.question {
+    padding: 40px 0;
+}
+.question #accordion::before {
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: -22px;
+    height: 90%;
+    width: 1px;
+    background: 
+    #1b61a6;
 }
 
 
